@@ -3,7 +3,19 @@ body{
     margin: 5%;
 }
 h1{
-    font-size: 55px;
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    text-align: left;
+}
+h3{
+    font-size: 40px;
+    text-align: left;
+}
+h4{
+    font-size: 40px;
 }
 #header{
     border-left: 5px solid;
@@ -29,10 +41,10 @@ p{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(tomato, tomato);
-    padding: 20px, 60px;
+    padding: 10px 40px;
     color: white;
-    font-weight: 400;
-    border-radius: 2px;
+    font-weight: 600;
+    border-radius: 5px;
 }
 .second-part{
     margin: 5%;
@@ -43,7 +55,7 @@ p{
     margin-right: 1%;
     border-radius: 30px;
     background-color: rgb(235, 220, 193);
-    padding: 30px 30px; image-rendering: inherit;
+    padding: 30px 30px; 
 }
 .vission-item{
     width: 30%;
@@ -60,4 +72,29 @@ p{
     border-radius: 30px;
     background-color: rgb(241, 202, 241);
     padding: 30px 30px;
+}
+.develop-part{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.projects-part{
+    background-image: url(images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last-part{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tomato-color{
+    color: tomato;
+}
+.white-color{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: rgb(2, 2, 36);
 }
